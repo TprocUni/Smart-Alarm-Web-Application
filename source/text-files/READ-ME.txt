@@ -1,0 +1,32 @@
+Hello there, welcome to your greatest dream...
+...dream alarm clock
+
+WARNING:
+This webpage is compatible with chrome only.
+
+USAGE:
+On the left hand side of the screen any alert you have made will be stored, the content and any extra information being displayed on a closable tab.
+On the right side there is another list, but this time filled with notifications about covid figures, the local weather and top news articles.
+The centre of the webpage allows you to create an alarm, the date-box allowing you to select when the alarm will be set, and the text box beneath that lets you write the reminder you need at that time.
+There are also two tickboxes, one for weather and one for news, by ticking either (or both) you can get an appropriate update during your announcements.
+Thats not all, any alert will be read out to you using text to speech magic, proving once and for all that little men operate modern technology.
+Both the announcements and notifications have the ability to be removed, lest they bother your sore eyes.
+
+BUGS:
+Unfortunately it seems as though there is something wrong with the person in the computer, since whenever a notification gets deleted there is a chance for duplication (peculiarly only on even values in the nested for loop)
+
+CONFIG:
+If you wish to learn the art of config manipulation, you must follow these steps closely:
+1. open the file config.json
+2. find the tag or key you wish to change, a list of what they do will be provided.
+3. change the data associated with the tag (e.g you searched for "weatherLocation": "[city]", the [city] bit would be yours to name (provided the city is on the database))
+4. win at life
+
+CONFIG MEANINGS:
+loggingPath - this is the filepath taken to read the file that contains all the logging data (leave it be).
+weatherLocation - this is the location that the weather data will be taken from, input a city.
+weatherKey - this is a unique key to the weather API, dont change it unless you know what you are doing.
+newsLocation - this is the location the news API will pull data from (input a country code e.g us or gb).
+newsKeyTerm - this is a keyterm that the news API will search for (e.g Covid will bring up search results related to covid).
+newsKey - this is a unique key to the news API, dont change it unless you know what you are doing.
+IMGPath - this is the path to the main image on the webpage, dont change it unlessd you want to
