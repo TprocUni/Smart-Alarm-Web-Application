@@ -59,7 +59,7 @@ Yesterday there was {yesterdayDeaths} deaths, bringing the total up to {cumulati
 
 
 #weather data fetching
-def weatherFetch(city = "exeter", key = "e74f7af941e8c442774d418d9089b2f5"):
+def weatherFetch(city = "exeter", key = "YOUR_KEY_HERE"):
     #Allows for customizable API key and weather location.
     baseURL = "http://api.openweathermap.org/data/2.5/weather?q="
     city = str(city)
